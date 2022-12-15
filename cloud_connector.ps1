@@ -27,5 +27,5 @@ New-Object -TypeName PSCustomObject -Property @{customerName=$customerName;clien
 C:\temp\cwcconnector.exe /q /ParametersFilePath:c:\temp\cwcconnector.json
 
 # Cleanup created files
-Remove-Item -Path c:\temp\cwcconnector.json
-Remove-Item -Path c:\temp\cwcconnector.exe
+# Remove-Item -Path c:\temp\cwcconnector.json
+# Remove-Item -Path c:\temp\cwcconnector.exe
